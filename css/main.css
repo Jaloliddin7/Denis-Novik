@@ -280,3 +280,69 @@ h1{
     transform: scale(1.3) ;
 }
 /* FOOTER END */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .button{
+        width: 35px;
+        height: 35px;
+        left: 50px ;
+        top: 90px;
+    }
+    .button svg {
+        width: 30px;
+        height:30px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    *{
+        width: min(100%,668px);
+    }
+    .box__list{
+        gap: 100px 100px;
+        grid-template-columns: repeat(2,minmax(100px,100px));
+        grid-template-rows: repeat(1,200px);
+    }
+    html{
+        margin: 0;
+    }
+    body{
+        font-family: var(--site-fonts);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        flex-direction: column;
+
+        /* padding: 80px; */
+    }
+    .conteiner{
+        width: min(100%,700px);
+        margin: 0 auto;
+        padding: 0px 20px; 
+    }
+    .box__img__ai{
+        width: 100px;
+        height: 100px;
+    }
+    .intro__img{
+        width: 400px;
+        height: 300px; 
+        display: block;
+        margin: 0 auto;
+
+    }
+    .card__img{
+        width: 400px;
+        height: 300px;
+    }
+    .button{
+        width: 35px;
+        height: 35px;
+        left: 50px ;
+        top: 90px;
+    }
+    .button svg {
+        width: 30px;
+        height:30px;
+    }
+}
